@@ -8,8 +8,10 @@ function NavBar() {
 
   return (
     <nav className="navbar">
+        <img className="nav-logo"></img>
      
     <div class="link-wrap">
+        <icon></icon>
       <NavLink to="/">
         Home
       </NavLink>
