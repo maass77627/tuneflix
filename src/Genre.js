@@ -8,7 +8,7 @@ console.log(genres)
     return (
         <div className="genre">
           {genres.map((gen) => (
-            <div className="genre-card">
+            <div key={gen.id} className="genre-card">
                 <h1>{gen}</h1>
             </div>
           ))}
